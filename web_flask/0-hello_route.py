@@ -1,5 +1,5 @@
-#!/usr/in/python3
-"""Script that runs an app with Flask framework"""
+#!/usr/bin/python3
+""" Script that runs an app with Flask framework """
 from flask import Flask
 
 
@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/', strict_slashes=False)
 def hello_hbnb():
-    """Function called with / route"""
+    """ Function called with / route """
     return 'Hello HBNB!'
 
 if __name__ == "__main__":
